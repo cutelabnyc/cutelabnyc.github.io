@@ -31,13 +31,40 @@ h2 {
   text-align: center;
 }
 
+div.feliz-container {
+  width: 800px;
+  margin: auto;
+}
+
+@keyframes jueves-in {
+  0% {translate: 150px 0px; letter-spacing: 2em; width: 0%; opacity: 0%;}
+  /* 20% {width: 100%; opacity: 100%;} */
+  100% {letter-spacing: normal; width: 100%; opacity: 100%;}
+}
+
+@keyframes jueves-out {
+  from {opacity: 100%;}
+  to {translate: -400px 0px; opacity: 0%;}
+}
+
+h2.feliz {
+  overflow: hidden;
+  text-align: left;
+  animation: jueves-in 4s ease-in-out 1, jueves-out 4s ease-in-out 1;
+  animation-delay: 0s, 6s;
+  animation-fill-mode: forwards, forwards;
+  white-space: nowrap;
+  font-family: 'Marker Felt', sans-serif;
+  margin-left: 400px;
+}
+
 a {
   color: rgb(202, 123, 255);
 }
 
 .cutelab-main {
   width: 100%;
-  text-align: center;;
+  text-align: center;
 }
 
 .description {
@@ -144,4 +171,8 @@ div.mce_inline_error {
 .button-subscribe:hover {
   color: rgb(202, 123, 255);
   border-color: rgb(202, 123, 255);
+}
+
+.hidden {
+  display: none;
 }
