@@ -51,10 +51,10 @@ h2.feliz {
   overflow: hidden;
   text-align: left;
   animation: jueves-in 4s ease-in-out 1, jueves-out 4s ease-in-out 1;
-  animation-delay: 0s, 6s;
+  animation-delay: 0s, 4.5s;
   animation-fill-mode: forwards, forwards;
   white-space: nowrap;
-  font-family: 'Marker Felt', sans-serif;
+  font-family: 'Chalkboard', sans-serif;
   margin-left: 400px;
 }
 
