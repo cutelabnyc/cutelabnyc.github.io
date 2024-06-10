@@ -72,6 +72,13 @@ a {
   margin: 0 auto;
 }
 
+.longform {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: large;
+}
+
 .email, .email:hover, .email:active, .email:visited {
   color: white;
 }
