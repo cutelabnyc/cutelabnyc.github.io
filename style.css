@@ -84,6 +84,11 @@ a {
     color: rgb(202, 123, 255);
 }
 
+p {
+    margin-top: 0 auto;
+    margin-bottom: 0.2em;
+}
+
 .cutelab-main {
     width: 100%;
     text-align: center;
@@ -92,7 +97,7 @@ a {
 .description {
     max-width: 400px;
     /* margin: 0 auto; */
-    margin: 0.1em;
+    /* margin: 0.1em; */
 }
 
 .hidden {
