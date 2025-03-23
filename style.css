@@ -91,7 +91,8 @@ a {
 
 .description {
     max-width: 400px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: 0.1em;
 }
 
 .hidden {
