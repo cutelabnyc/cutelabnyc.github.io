@@ -35,8 +35,8 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-top: 0.83em;
-    margin-bottom: 0.1em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.1em;
 }
 
 div.feliz-container {
@@ -80,13 +80,13 @@ h2.feliz {
     margin-left: 400px;
 }
 
-a {
-    color: rgb(202, 123, 255);
+p {
+    margin-block-start: 0;
+    margin-block-end: 0.2em;
 }
 
-p {
-    margin-top: 0 auto;
-    margin-bottom: 0.2em;
+a {
+    color: rgb(202, 123, 255);
 }
 
 .cutelab-main {
@@ -95,7 +95,7 @@ p {
 }
 
 .description {
-    max-width: 400px;
+    max-width: 442px;
     /* margin: 0 auto; */
     /* margin: 0.1em; */
 }
